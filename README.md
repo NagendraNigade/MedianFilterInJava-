@@ -6,6 +6,8 @@ Image size taken as 512*512.
 The Size of the filter is 3.
 Edges are kept unchanged.
 
+Check Issues for Sample Images
+
 How Median Filter works :
 
 Median For Pixel at (1,1)
@@ -23,5 +25,7 @@ Algorithm (MedianFilterGrayScale.java) :
 1.2 Creata a temporary array of 3*3 (As the size of filter is 3) to apply filter.
 1.3 Sort the Temporary array and store the new median value into new array.
 1.4 User WritableRaster to Create new image from pixcel. (Edges are kept unchaged with the same values as of source image)
+
+Check Issues for Sample Images
 
 
